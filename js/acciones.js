@@ -16,12 +16,11 @@ function getPosition(){
 	var watchID = navigator.geolocation.getCurrentPosition(onSuccess, onError, options);
 	function onSuccess(position){
 		
-		alert('latitude:'  +position.coords.latitude   +'\n'+
-		'Longitude:'       +position.coords.latitude   +'\n');
+		alert('Latitude:'  +position.coords.latitude   +'\n'+
+		'Longitude:'       +position.coords.longitude   +'\n');
 	};
 	function onError(error){
-		alert('code:'  + error.code  +'\n' + 'message:' + error.message +
-		'\n');
+		alert('code:'  + error.code  +'\n' + 'message:' + error.message +'\n');
 	}
 }
 		

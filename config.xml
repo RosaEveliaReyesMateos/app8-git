@@ -31,10 +31,10 @@ Rosa Evelia Reyes Mateos
 <!--para accesar a paginas en internet-->
 <plugin name="cordova-plugin-geolocation" spec="2.4.3"/>
 
-<allow-intent href="https://*/"/>
-<acces origin="https://*/"/>
-<allow-intent href="https://*/"/>
-<acces origin="https://*/"/>
+<allow-intent href="https://*/*"/>
+<acces origin="https://*/*"/>
+<allow-intent href="https://*/*"/>
+<acces origin="https://*/*"/>
 <plugin name="cordova-plugin-whitelist" source="npm"/>
 
 <!-- Colocar icono app -->
